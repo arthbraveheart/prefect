@@ -8,7 +8,8 @@ PREFECT_SERVER_ALLOW_EPHEMERAL_MODE = "true"
 
 [profiles.local]
 # You will need to set these values appropriately for your local development environment
-PREFECT_API_URL = "http://127.0.0.1:4200/api"
+#"http://127.0.0.1:4200/api"
+PREFECT_API_URL = "https://prefect-perfect.onrender.com" 
 
 [profiles.test]
 PREFECT_SERVER_ALLOW_EPHEMERAL_MODE = "true"
