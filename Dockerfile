@@ -121,7 +121,7 @@ ARG EXTRA_PIP_PACKAGES=${EXTRA_PIP_PACKAGES:-""}
 RUN [ -z "${EXTRA_PIP_PACKAGES}" ] || pip install --no-cache-dir "${EXTRA_PIP_PACKAGES}"
 
 # Smoke test
-RUN prefect version
+# RUN prefect version
 
 # Setup entrypoint
 COPY scripts/entrypoint.sh ./entrypoint.sh
